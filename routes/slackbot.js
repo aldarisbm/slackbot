@@ -3,8 +3,7 @@ var express = require('express');
 var router = express.Router();
 
 router.post('/', (req, res)=>{
-  let payload = req.body;
-  res.sendStatus(200);
+  console.log(req.body)
 })
 
 module.exports = router;
