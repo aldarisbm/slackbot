@@ -12,6 +12,7 @@ router.post('/', (req, res)=>{
 })
 
 router.post('/hello', (req, res)=>{
-  res.send(req.body)
+  console.log(req.body)
+  res.send('hello')
 })
 module.exports = router;
